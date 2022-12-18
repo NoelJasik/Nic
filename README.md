@@ -13,3 +13,5 @@ Nic tutaj nie znajdziesz
 ### Dodatkowe informacje
 gra testowana na Chromium (google chrome, edge, brave etc) na firefoxie też powinna działać
 jeżeli ktoś używa wtyczek typu dark reader czy jakie kolwiek inne które mogą wpływać na stronę html jak jakiś adblock, polecam wyłączyć, bo mogą coś zepsuć
+
+Szum w plikach zrobiony za pomocą https://github.com/NoelJasik/NoiseMaker narzędzie to również zostało stworzone w trakcie jamu, wykorzystuję bibliotekę random-word w celu generowania losowych nazw
