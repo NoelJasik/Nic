@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nic</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <p><span id="counter1">?</span>/<span id="counter2">?</span></p>
+    <button onclick="buttonPress()">Kliknij</button>
+</body>
+<script>
+    let click = 0;
+    let maxClicks = 1000;
+
+    const c1 = document.getElementById("counter1");
+    const c2 = document.getElementById("counter2");
+
+    function buttonPress() {
+        click++;
+        c1.innerText = click;
+        c2.innerText = maxClicks;
+        if (click >= maxClicks) {
+            window.location.href = "fartSmella.html";
+        }
+    }
+    function megaPress() {
+        click+= 100;
+        c1.innerText = click;
+        c2.innerText = maxClicks;
+        if (click >= maxClicks) {
+            window.location.href = "fartSmella.html";
+        }
+    }
+    c1.innerText = click;
+    c2.innerText = maxClicks;
+</script>
+
+</html>
