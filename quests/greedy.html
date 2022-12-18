@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nic</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../scss/main.css">
+    <script src="../js/slavesToPower.js"></script>
 </head>
 
 <body>
+    <p>Serio nic tu nie będzie, po co tracić czas</p>
     <p><span id="counter1">?</span>/<span id="counter2">?</span></p>
     <button onclick="buttonPress()">Kliknij</button>
 </body>
@@ -25,7 +27,7 @@
         c1.innerText = click;
         c2.innerText = maxClicks;
         if (click >= maxClicks) {
-            window.location.href = "fartSmella.html";
+            go();
         }
     }
     function megaPress() {
@@ -33,7 +35,7 @@
         c1.innerText = click;
         c2.innerText = maxClicks;
         if (click >= maxClicks) {
-            window.location.href = "fartSmella.html";
+            go();
         }
     }
     c1.innerText = click;

@@ -5,10 +5,10 @@ Nic tutaj nie znajdziesz
 
 ## Poziomy trudności
 
-1. Łatwy - korzystaj z wszystkiego co masz dostępne na komputerze
-2. Średni - korzystaj z edytora kodu oraz przeglądarki
-3. Trudny - korzystaj wyłącznie z przeglądarki
-
+1. Chyba sobie żarutjesz - korzystaj z wszystkiego co masz dostępne na komputerze
+2. Bardzo łatwy - korzystaj z edytora kodu oraz przeglądarki
+3. Łatwy - korzystaj wyłącznie z przeglądarki
+4. Średni - korzystaj wyłącznie z przeglądarki, nie sprawdzaj zawartości foldera js, nie korzystaj z konsoli, korzystaj tylko z już stworzonych komponentów HTML
 
 ### Dodatkowe informacje
 gra testowana na Chromium (google chrome, edge, brave etc) na firefoxie też powinna działać
